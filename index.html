@@ -51,7 +51,7 @@
     <main class="main">
       <!--Секция Герой-->
       <section class="section-hero" id="studio">
-        <div class="container">
+        <div class="container hero-container">
           <h1 class="title-hero">
             Эффективные решения <br />
             для вашего бизнеса
@@ -96,13 +96,13 @@
       </section>
       <!--Секция Про нас-->
       <section class="about">
-        <div class="container about-container">
+        <div class="container">
           <h2 class="about-title">Чем мы занимаемся</h2>
-          <ul class="list">
-            <li>
+          <ul class="list about-list">
+            <li class="about-item">
               <img width="370" height="294" src="./img/about/img.jpg" alt="Пишем код" />
             </li>
-            <li>
+            <li class="about-item">
               <img
                 width="370"
                 height="294"
@@ -110,7 +110,7 @@
                 alt="Сайты подходят под смартфоны"
               />
             </li>
-            <li>
+            <li class="about-item">
               <img
                 width="370"
                 height="294"
@@ -125,7 +125,7 @@
       <section class="team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
-          <ul class="list">
+          <ul class="list team-list">
             <li class="team-item">
               <img
                 class="team-logo"
@@ -180,18 +180,22 @@
     <!-- Подвал страницы -->
     <footer class="footer" id="contacts">
       <div class="container">
-        <a class="link nav-logo" href="index.html"
+        <a class="link nav-logo-footer" href="index.html"
           >Web<span class="footer-logo-studio">Studio</span></a
         >
-        <address class="footer-address">г. Киев, пр-т Леси Украинки 26</address>
-        <ul class="list">
-          <li>
-            <a class="link footer-link-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a class="link footer-link-phone" href="tel:+380961111111"> +38 096 111 11 11 </a>
-          </li>
-        </ul>
+        <div class="footer-contacts">
+          <address class="footer-address">г. Киев, пр-т Леси Украинки 26</address>
+          <ul class="list footer-list">
+            <li>
+              <a class="link footer-link-mail" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link footer-link-phone" href="tel:+380961111111"> +38 096 111 11 11 </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
