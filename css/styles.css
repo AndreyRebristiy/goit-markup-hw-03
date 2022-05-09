@@ -25,6 +25,7 @@ body {
 }
 
 .link {
+    display: block;
     text-decoration: none;
     color: currentColor;
 }
@@ -56,13 +57,9 @@ img {
     padding-bottom: 94px;
 }
 .container {
-   
-
     width: 1200px;
-
     padding-left: 15px;
     padding-right: 15px;
-
     margin-left: auto;
     margin-right: auto;
 }
@@ -111,7 +108,6 @@ img {
 }
 .nav-item {
     margin-right: 50px;
-    padding: 32px 0;
 }
 .nav-item:last-child {
     margin-right: 0;
@@ -226,6 +222,7 @@ color: var(--secondary-txt-cl);}
 }
 .benefits-item {
     margin-right: 30px;
+    width: 270px;
 }
 .benefits-item:last-child {
     margin-right: 0;
@@ -307,7 +304,10 @@ color: var(--secondary-txt-cl);}
 }
 .team-logo {
     border-radius: 0px;
-    margin-bottom: 30px;
+}
+.team-profile {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team-upper-title {
     font-weight: 500;
@@ -323,7 +323,6 @@ color: var(--secondary-txt-cl);}
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 30px;
     color: var(--secondary-txt-cl); 
 }
 /*
@@ -334,6 +333,8 @@ color: var(--secondary-txt-cl);}
 
 .footer{
     background-color: var(--dark-bg-cl);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .nav-logo-footer {
@@ -343,7 +344,6 @@ color: var(--secondary-txt-cl);}
     line-height: 1.19;
     letter-spacing: 0.03em;
     display: block;
-    padding-top: 60px;
     margin-bottom: 20px;
     color: var(--accent-cl);
 }
@@ -361,6 +361,13 @@ color: var(--secondary-txt-cl);}
     color: var(--hero-txt-cl);
 }
 
+.footer-item {
+    margin-bottom: 9px;
+}
+.footer-item:last-child {
+    margin-bottom: 0;
+}
+
 .footer-link-mail,
 .footer-link-phone {
     font-size: 14px;
@@ -370,16 +377,10 @@ color: var(--secondary-txt-cl);}
     color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link-mail {
-    margin-bottom: 9px;
-}
-.footer-contacts {
-    padding-bottom: 60px;
-}
-
 .footer-link-mail:hover{
 color: var(--accent-cl)
 }
+
 .footer-link-phone:hover
 {
 color: var(--accent-cl)
@@ -406,6 +407,7 @@ color: var(--accent-cl)
     margin-bottom: 50px;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 .portfolio-btn-link {
     margin-right: 8px;
@@ -461,6 +463,7 @@ color: var(--accent-cl)
 
 .portfolio-item-text {
     padding: 20px 24px;
+    border-top: none;
     border: 1px solid #EEEEEE;
 }
 .portfolio-upper-title {
